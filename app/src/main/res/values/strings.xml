@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Calculadora de Notas</string>
+    <string-array name="sistema">
+        <item>30%T + 70%L</item>
+        <item>40%T + 60%L</item>
+        <item>20%T + 80%L</item>
+    </string-array>
+</resources>
