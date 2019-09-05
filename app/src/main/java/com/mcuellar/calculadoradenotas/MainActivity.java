@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
                 et_pl4 = findViewById(R.id.prom1f);
 
                 if(et_pt1.getText().length() == 0 || et_pt2.getText().length() == 0 || et_pl1.getText().length() == 0 || et_pl2.getText().length() == 0 || et_pl3.getText().length() == 0 || et_pl4.getText().length() == 0){
-                    Toast.makeText(MainActivity.this, "Completa todos los campos", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, "Falta completar los campos!!", Toast.LENGTH_SHORT).show();
                 }else{
                     calculate();
                 }
@@ -111,9 +111,9 @@ public class MainActivity extends AppCompatActivity {
         promedio.setText("Promedio: " + p);
 
         if(Double.parseDouble(p) >= 13){
-            resultado.setText("Aprobado!");
+            resultado.setText("Aprobado");
         }else{
-            resultado.setText("Desaprobado!");
+            resultado.setText("Desaprobado");
         }
 
     }
